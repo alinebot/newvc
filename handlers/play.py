@@ -239,7 +239,7 @@ async def ytp(client: Client, message_: Message):
         photo="final.png",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("music group join", url="https://t.me/MusicBotEnjoy_group")
-        ),
+        )
         parse_mode="markdown)",
     )
     os.remove("final.png")
