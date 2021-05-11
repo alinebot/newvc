@@ -238,7 +238,7 @@ async def ytp(client: Client, message_: Message):
         caption=f"Playing `{query}` Via [YouTube](https://t.me/MusicBotEnjoy_group)",
         photo="final.png",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("music group join", url="https://t.me/MusicBotEnjoy_group)]]
+            [[InlineKeyboardButton("music group join", url="https://t.me/MusicBotEnjoy_group)",
         ),
         parse_mode="markdown",
     )
